@@ -1,0 +1,20 @@
+Vertices: 
+--------------
+Node: F Host: 127.0.0.1 Port: 10004
+Node: E Host: 127.0.0.1 Port: 10005
+Node: D Host: 127.0.0.1 Port: 10003
+Node: C Host: 127.0.0.1 Port: 10002
+Node: B Host: 127.0.0.1 Port: 10001
+Node: A Host: 127.0.0.1 Port: 10000
+
+Converged table:D
+--------------
+Location: A Predecessor: _ Distance: 100
+Location: B Predecessor: _ Distance: 100
+Location: C Predecessor: D Distance: 2
+Location: D Predecessor: _ Distance: 0
+Location: E Predecessor: _ Distance: 100
+Location: F Predecessor: D Distance: 3
+
+
+
